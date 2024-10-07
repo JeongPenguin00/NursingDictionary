@@ -10,30 +10,35 @@ NursingDictionary는 간호학 및 관련 의학 용어를 쉽게 검색하고 �
 - **다국어 지원**: 간호 용어와 관련된 영어 번역 제공
 
 ## 설치 방법
+
 ### 1. 저장소 클론
 ```bash
 git clone https://github.com/JeongPenguin00/NursingDictionary.git
 cd NursingDictionary
+```
 
 ### 2. 의존성 설치
 ```bash
 npm install 
+```
 
-### 3. ios 설정(Mac OS)
+### 3. iOS 설정 (MacOS에서만)
 ```bash
 cd ios
 pod install
 cd ..
+```
 
-### 4-1. 앱실행(Android)
+### 4. 앱실행
+#### Android에서만
 ```bash
 npm run android
+```
 
-### 4-2. 앱실행(ios)
+#### ios에서만
 ```bash
 npm run ios
-
-
+```
 
 ## 프로젝트 구조
 - src/
@@ -44,7 +49,7 @@ npm run ios
 - android/           # Android 관련 프로젝트 파일
 
 
-## 문의
-wodyd818@naver.com
+## 기타문의
 
+- Email : wodyd818@naver.com
 
